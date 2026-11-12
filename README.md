@@ -8,7 +8,7 @@ Aplicação web que simula uma urna eletrônica, permitindo a identificação do
 
 Acesse o sistema funcionando diretamente pelo navegador:
 
-👉 **[Acessar o Sistema de Votação ao Vivo](urnavotacao.42web.io)**
+👉 **[Acessar o Sistema de Votação ao Vivo]([urnavotacao.42web.io](https://urnavotacao.42web.io/))**
 
 ---
 
