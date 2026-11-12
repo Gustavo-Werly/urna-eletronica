@@ -1,0 +1,230 @@
+body {
+    background-color: #9DEEF5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.banner {
+    display: block;
+    width: 100vw;
+    height: 120px;
+    background-color: #99C5C7;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    margin: 0;
+    font-family: Arial;
+    color: black; 
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nome {
+    font-size: 25px;
+    font-family: Arial;
+    color: #134078;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.voto1 {
+    display: block;
+    width: 720px;
+    height: 130px;
+    background-color: #99C5C7;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+.candvoto1 {
+    display: block;
+    font-family: Arial;
+    color: black; 
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: -60px;
+}
+.voto1 img {
+    width: 110px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.voto1 h1 {
+    display: block;
+    font-family: Arial;
+    color: black; 
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 135px;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.voto1 h2 {
+    display: block;
+    font-family: Arial;
+    color: black; 
+    font-weight: normal;
+    margin-left: 135px;
+    font-size: 20px;
+}
+
+.voto1 button {
+    display: block;
+    margin-left: 500px;
+    width: 170px;
+    height: 48px;
+    background-color: #2B89FF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: -55px;
+}
+
+.voto2 {
+    display: block;
+    width: 720px;
+    height: 130px;
+    background-color: #99C5C7;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.candvoto2 {
+    display: block;
+    font-family: Arial;
+    color: black; 
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: -10px;
+}
+.voto2 img {
+    width: 110px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.voto2 h1 {
+    display: block;
+    font-family: Arial;
+    color: black; 
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 135px;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.voto2 h2 {
+    display: block;
+    font-family: Arial;
+    color: black; 
+    font-weight: normal;
+    margin-left: 135px;
+    font-size: 20px;
+}
+
+.voto2 button {
+    display: block;
+    margin-left: 500px;
+    width: 170px;
+    height: 48px;
+    background-color: #2B89FF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: -55px;
+}
+
+.branco {
+    display: block;
+    margin-left: 530px;
+    width: 270px;
+    height: 48px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-conteudo {
+    width: 480px;
+    height: 420px;
+    background-color: white;
+    padding: 30px;
+    margin: 5% auto;
+    border-radius: 6px;
+}
+
+.modal-conteudo img {
+    width: 120px;
+    margin-left: 165px;
+    margin-top: 10px;
+}
+
+.modal-conteudo h1 {
+    display: block;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.modal-conteudo p{
+     display: block;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.fechar {
+    display: block;
+    width: 170px;
+    height: 48px;
+    background-color: #2B89FF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 95px;
+    margin-left: 135px;
+}
+
+.bordaativa {
+    border: 2px solid green;
+}
